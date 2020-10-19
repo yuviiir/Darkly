@@ -1,0 +1,9 @@
+How To Replicate:
+
+1. Navigate to http://192.168.127.128/?page=
+2. Keep adding '../' until the alert message is consistant. (seven times)
+3. Add 'etc/passwd' to get the flag.
+
+Fixes:
+
+Directory access should be disallowed.

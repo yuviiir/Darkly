@@ -1,0 +1,11 @@
+How To Replicate:
+
+1. Navigate to http://192.168.127.128/whatever.
+2. Click 'htpasswd' to download a file.
+3. Open and decrypt the MD5 hash to get 'dragon'.
+4. Navigate to http://192.168.127.128/admin.
+5. Enter 'root' as the username, and 'dragon' as the password.
+
+Fixes:
+
+Directory/File access should be disallowed.
