@@ -1,0 +1,10 @@
+How To Replicate:
+
+1. Navigate to 'forgot password' on the 'sign in' page.
+2. Inspect something on the page.
+3. Locate the 'hidden' element.
+4. Remove the email, then click the submit button.
+
+Fixes:
+
+Private information should be implemented on the backend. A HTML 'hidden' tag can still be viewed and changed.

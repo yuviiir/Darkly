@@ -1,0 +1,9 @@
+How To Replicate:
+
+1. Go to the feedback page.
+2. Enter 'alert' in the name input box.
+3. Click the submit button.
+
+Fixes:
+
+Validate all information/input recieved from the user.

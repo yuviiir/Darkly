@@ -1,0 +1,8 @@
+How To Replicate:
+
+1. Run the shell script (hidden.sh) that downloads all the files found in 'http://192.168.127.128/.hidden/'.
+2. You will get the flag in the terminal.
+
+Fixes:
+
+Directory access should be disallowed, especially on hidden files.

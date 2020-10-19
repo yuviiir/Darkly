@@ -1,0 +1,11 @@
+How To Replicate:
+
+1. Inspect an element on the page.
+2. Go to the 'application' window.
+3. Click on 'cookies'.
+4. Change the value of 'I_am_admin' to the MD5 hash of the word 'true', which is: b326b5062b2f0e69046810717534cb09.
+5. Click the reload button.
+
+Fixes:
+
+Set sensitive data in session variables rather than cookies.

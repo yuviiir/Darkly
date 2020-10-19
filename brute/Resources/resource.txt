@@ -1,0 +1,8 @@
+How To Replicate:
+
+1. Run the shellscript (sh brute.sh) which is a basic brute force script. The script basically tries common passwords.
+2. The flag should appear in the terminal.
+
+Fixes:
+
+Block the user after a certain ammount of retries or make users enter stronger passwords.
