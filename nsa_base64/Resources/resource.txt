@@ -1,0 +1,9 @@
+How To Replicate:
+
+1. Click on the third image (nsa)
+2. Encode '<script>alert()</script>' in base 64 (PHNjcmlwdD5hbGVydCgpPC9zY3JpcHQ+)
+3. Change 'nsa' in the url to 'data:text/html;base64,PHNjcmlwdD5hbGVydCgpPC9zY3JpcHQ+'
+
+Fixes:
+
+Do not take the source of an image as a variable in the url.

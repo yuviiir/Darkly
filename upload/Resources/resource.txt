@@ -1,0 +1,8 @@
+How To Replicate:
+
+1. Run the shell script (upload.sh) which will upload the file, 'upload.js' as a jpeg filetype.
+2. Find the flag in the terminal.
+
+Fixes:
+
+Validate file types when uploaded by the user.

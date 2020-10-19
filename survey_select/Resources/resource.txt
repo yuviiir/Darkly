@@ -1,0 +1,10 @@
+How To Replicate:
+
+1. Go to the 'survey' page.
+2. Inspect one of the 'grade' dropdown inputs.
+3. Change on of select options value to a number greater than 10.
+4. Click the option you just changed.
+
+Fixes:
+
+User input should be validated on the backend.

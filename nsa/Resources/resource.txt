@@ -1,0 +1,11 @@
+How To Replicate:
+
+1. Click the copywrite at the bottom of the page.
+2. Inspect an element and find 'You must cumming from : "https://www.nsa.gov/" to go to the next step'.
+3. Create a shell script that uses referer (nsa.gov) and agent (ft_bornToSec) to return html.
+4. Run the shell script (nsa.sh).
+5. Find the flag in the terminal.
+
+Fixes:
+
+Don't trust 'referer', find a more secure way to validate referals.

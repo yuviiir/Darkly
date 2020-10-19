@@ -1,0 +1,9 @@
+How To Replicate:
+
+1. Inspect a social media icon.
+2. Change the 'href' link variable for 'site'.
+3. Click the respective icon.
+
+Fixes:
+
+Do the redirction to the site on the backend based on which icon is clicked.
